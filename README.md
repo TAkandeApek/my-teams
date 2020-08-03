@@ -13,3 +13,5 @@ A webpart that uses Microsoft Graph to list the Teams the current user is a memb
 - Open a channel directly via link 
 - Pagination
 - Change item number per page
+
+![Demo](./assets/Preview.gif)

@@ -14,4 +14,4 @@ A webpart that uses Microsoft Graph to list the Teams the current user is a memb
 - Pagination
 - Change item number per page
 
-![Demo](./assets/Preview.gif)
+![Demo](/assets/preview.gif)

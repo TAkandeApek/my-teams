@@ -34,7 +34,13 @@ A webpart that uses Microsoft Graph to list the Teams the current user is a memb
 ## Installation Instruction
 
 Clone this repository.
-
+- in the command line run:
+  - `npm install`
+  - `gulp bundle --ship`
+  - `gulp package-solution --ship`
+  - Add to **AppCatalog** and deploy
+  
+Alternatively
 Upload my-teams.sppkg to your SharePoint App Catalog
 
 Once installed, the solution will request the required permissions via the Office 365 admin portal.

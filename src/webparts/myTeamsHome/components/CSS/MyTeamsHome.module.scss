@@ -1,0 +1,150 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.myTeamsHome {
+   .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: $ms-color-themePrimary;
+    border-color: $ms-color-themePrimary;
+    color: $ms-color-white;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+
+    .label {
+      font-weight: $ms-font-weight-semibold;
+      font-size: $ms-font-size-m;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+    }
+  }
+}
+
+.container {
+  max-width: 445px;
+  margin: 0px auto;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  border: medium 2px;
+  font-family: Montserrat;
+}
+.teamImage{
+  width: 50px;
+  border-radius: 25px;
+  margin-top: 15px;
+  border-color: darkblue 1px;
+}
+
+
+.row {
+  @include ms-Grid-row;
+  @include ms-fontColor-white;  
+  padding: 10px 3px !important;
+  width: -webkit-fill-available;
+  margin: 0px;
+  
+  .rdt_Pagination{
+    font-size: 11px !important;
+    padding: 8px 0px !important;
+  }
+}
+
+.ms-SearchBox{   
+  border: 2px solid !important;
+  border-color: lightgray !important;
+  height: 40px !important;
+  margin-left: -8px;
+ 
+}
+
+.ms-SortControl{    
+  border: 2px solid !important;
+  border-color: lightgray !important;
+  height: 40px !important;
+ 
+}
+
+.progressMessage{
+  font-size: 16px;
+  color: $ms-color-themePrimary;  
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+
+.channelSection{
+padding-left: 30px;
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+background-color: #edebe9;
+}
+
+.channelLink{
+  padding: 7px 5px; 
+    cursor: pointer;   
+    color: black;
+    text-decoration: none; 
+}
+
+.channelLink:hover{
+  background-color: lightgray;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.membershipType{
+  color: darkgrey;
+  font-size: 12px;
+  padding: 0px 5px;
+  
+  
+}
+
+[id^="Dropdown"]{
+  border: none !important;   
+  margin-left: -4px !important;
+}
+
+nav{
+  font-size: 12px !important;
+  padding: 0px !important;
+}
+
+
